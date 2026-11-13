@@ -1,0 +1,12 @@
+# Rename this file to CODEOWNERS and replace the teams with your own.
+# Each brain area is owned by the people who can confirm entries in it.
+# A pull request that changes an entry needs a review from its owner.
+
+/AGENTS.md                      @your-org/product-leads
+/brain/rules/payments/          @your-org/payments-leads
+/brain/rules/refunds/           @your-org/payments-leads
+/brain/decisions/               @your-org/product-leads
+/brain/clarifications/          @your-org/product-leads
+/brain/code-notes/              @your-org/tech-leads
+/brain/inbox/                   @your-org/product-leads
+/steps/                         @your-org/product-leads
