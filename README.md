@@ -9,6 +9,8 @@
 
 Copy it and fill in a few files. Your team, and every AI tool it uses, then works from the same checked answers. It works with Claude Code, Cursor, GitHub Copilot, Codex and ChatGPT. There is no server, no database and no sign-up.
 
+**The free guide:** [Start your product brain](https://rivoraconnect.com.au/resources/guides/start-your-product-brain) walks through everything this repository does, step by step, with pictures and prompts you can use today.
+
 > **What is an AI product brain?** A shared memory of how your product works: the decisions, rules, code knowledge and clarifications behind it, which people and AI tools draw on when they design and build each feature. See the [AI product brain glossary](https://rivoraconnect.com.au/glossary#ai-product-brain).
 
 ## Why it exists
