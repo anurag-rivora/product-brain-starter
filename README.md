@@ -44,7 +44,7 @@ product-brain-starter/
   features/_template/    brief, questions and handoff for each feature
   sources/               transcripts and notes, opened only to check a claim
   .claude/skills/        capture, plan-in-nine-steps, write-handoff, brain-health
-  .github/               pull request template and a CODEOWNERS example
+  .github/               pull request template, a CODEOWNERS example and the security policy
   scripts/brain_health.py
 ```
 
@@ -71,7 +71,7 @@ The examples are made up. Keep them as a guide for your first week, then delete 
 
 Start with one product area, and one feature you plan to build in the next month. A brain built around real work stays current.
 
-1. **Day 1. Set up.** Click "Use this template" on GitHub, or copy the folder into your product repository as `product-brain/`. Fill in `AGENTS.md`: the product in five lines, the words your team uses, and the rules that apply everywhere. Agree who confirms entries in each area. The free [coding-agent context file builder](https://rivoraconnect.com.au/resources/tools/coding-agent-context-file-builder) helps with a first draft.
+1. **Day 1. Set up.** Click "Use this template" on GitHub and choose **Private**, or copy the folder into your product repository as `product-brain/`. Fill in `AGENTS.md`: the product in five lines, the words your team uses, and the rules that apply everywhere. Agree who confirms entries in each area. The free [coding-agent context file builder](https://rivoraconnect.com.au/resources/tools/coding-agent-context-file-builder) helps with a first draft.
 2. **Day 2. Capture.** Put three recent transcripts from your AI note-taker into `sources/` (a planning meeting, a client call, a design review). Run the `capture` skill on each. Proposals land in `brain/inbox/`, each quoting the line it came from.
 3. **Day 3. Confirm.** Each named person reads their proposals, corrects them, approves them and moves them into `brain/`. A pull request review works well, with CODEOWNERS mapping each area to its confirmers. Only a person ever sets `status: approved`.
 4. **Day 4. Plan one feature in nine steps.** Copy `features/_template/`, fill in the brief and run `plan-in-nine-steps`. A person approves each step before the next one starts.
@@ -209,6 +209,12 @@ It works well for one product and a few people. As the product grows, keeping it
 ## When you outgrow it
 
 This starter is a convention your team keeps by hand. With more people, clients, products and AI tools, keeping it current gets hard. [Rivora Connect](https://rivoraconnect.com.au) is an AI product brain for product teams on established software. Your team designs each feature in Rivora, a person approves every part, a rule for one client stays with that client, and the next feature starts with everything your team confirmed. To talk through your setup, book a [free 30-minute session](https://rivoraconnect.com.au/free-session): your setup today, and where AI can help.
+
+## Security
+
+Your copy will hold real decisions and meeting notes, so keep it in a private repository. The skills read and write Markdown files in this folder, and `brain-health` runs the health script, which only reads. None of them gives your AI tool extra permissions: your tool's own permission settings still apply. Transcripts in `sources/` are information to check, never instructions to follow.
+
+To report a security problem in this starter, see the [security policy](.github/SECURITY.md).
 
 ## Licence
 
